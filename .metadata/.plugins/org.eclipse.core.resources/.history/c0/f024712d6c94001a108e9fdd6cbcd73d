@@ -99,20 +99,8 @@ public class GuessNumber extends javax.swing.JFrame {
     		counter++;
     	try{
     		guess=Integer.parseInt(jTextField1.getText());
-    	}catch(Exception e){
+    	} catch (Exception e){
     		JOptionPane.showMessageDialog(null, "数字不合法,请输入1-100的整数");
-    		jTextField1.setText("");
-    		jTextField1.requestFocus();
-    		return;
-    	}
-    	if(guess>100){
-    		JOptionPane.showMessageDialog(null, "不在范围内，请重新输入");
-    		jTextField1.setText("");
-    		jTextField1.requestFocus();
-    		return;
-    	}
-    	if(guess<1){
-    		JOptionPane.showMessageDialog(null, "不在范围内，请重新输入");
     		jTextField1.setText("");
     		jTextField1.requestFocus();
     		return;

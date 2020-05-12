@@ -105,18 +105,6 @@ public class GuessNumber extends javax.swing.JFrame {
     		jTextField1.requestFocus();
     		return;
     	}
-    	if(guess>100){
-    		JOptionPane.showMessageDialog(null, "不在范围内，请重新输入");
-    		jTextField1.setText("");
-    		jTextField1.requestFocus();
-    		return;
-    	}
-    	if(guess<1){
-    		JOptionPane.showMessageDialog(null, "不在范围内，请重新输入");
-    		jTextField1.setText("");
-    		jTextField1.requestFocus();
-    		return;
-    	}
     	if(guess>number){
     		JOptionPane.showMessageDialog(null, "输入的大了");
     		jTextField1.setText("");
