@@ -24,6 +24,7 @@ public class InterviewTest {
 		else
 			o2 = new Double(2.0);
 		System.out.println(o2);// 1
+
 	}
 
 	@Test
