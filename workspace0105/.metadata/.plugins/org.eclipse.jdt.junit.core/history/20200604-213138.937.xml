@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="InterviewTest (1)" project="day13" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.atguigu.java2.InterviewTest" time="0.003">
-    <testcase name="test1" classname="com.atguigu.java2.InterviewTest" time="0.003"/>
-    <testcase name="test2" classname="com.atguigu.java2.InterviewTest" time="0.0"/>
-    <testcase name="test3" classname="com.atguigu.java2.InterviewTest" time="0.0"/>
-  </testsuite>
-</testrun>
