@@ -71,7 +71,7 @@ public class AnnotationTest {
         Date date = new Date(2020, 10, 11);
         System.out.println(date);
 
-        @SuppressWarnings("unused")
+        @SuppressWarnings("")
         int num = 10;
 
 //        System.out.println(num);

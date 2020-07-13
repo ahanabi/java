@@ -14,7 +14,7 @@ public class StringBufferBuilderTest {
     从高到低排列：StringBuilder > StringBuffer > String
      */
     @Test
-    public void test3(){
+    public void test4(){
         //初始设置
         long startTime = 0L;
         long endTime = 0L;
@@ -48,7 +48,7 @@ public class StringBufferBuilderTest {
     /*
     StringBuffer的常用方法：
 StringBuffer append(xxx)：提供了很多的append()方法，用于进行字符串拼接
-StringBuffer delete(int start,int end)：删除指定位置的内容
+StringBuffer delete(int start,int end)：删除指定位置的内容/左闭右开
 StringBuffer replace(int start, int end, String str)：把[start,end)位置替换为str
 StringBuffer insert(int offset, xxx)：在指定位置插入xxx
 StringBuffer reverse() ：把当前字符序列逆转
@@ -72,15 +72,15 @@ public void setCharAt(int n ,char ch)
         StringBuffer s1 = new StringBuffer("abc");
         s1.append(1);
         s1.append('1');
-        System.out.println(s1);
+//        System.out.println(s1);
 //        s1.delete(2,4);
-//        s1.replace(2,4,"hello");
+//        s1.replace(2,5,"hello");
 //        s1.insert(2,false);
 //        s1.reverse();
-        String s2 = s1.substring(1, 3);
+//        String s2 = s1.substring(1, 3);
         System.out.println(s1);
         System.out.println(s1.length());
-        System.out.println(s2);
+//        System.out.println(s2);
     }
 
 
