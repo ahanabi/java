@@ -20,6 +20,7 @@ class ScannerTest{
 	
 	public static void main(String[] args){
 		//2.Scanner的实例化
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		
 		//3.调用Scanner类的相关方法
