@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * jdk 5.0 新增了foreach循环，用于遍历集合、数组
+ * jdk 5.0 新增了foreach循环，用于遍历集合、array
  *
  * @author shkstart
  * @create 2019 上午 11:24

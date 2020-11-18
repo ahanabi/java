@@ -142,6 +142,9 @@ public class ReflectionTest {
         Class c11 = b.getClass();
         // 只要数组的元素类型与维度一样，就是同一个Class
         System.out.println(c10 == c11);
-
+        System.out.println(c6);
+        System.out.println(c7);
+        System.out.println(c8);
+        System.out.println(c9);
     }
 }

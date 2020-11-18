@@ -105,13 +105,13 @@ public class CollectionTest {
         //7.hashCode():返回当前对象的哈希值
         System.out.println(coll.hashCode());
 
-        //8.集合 --->数组：toArray()
+        //8.集合 --->array：toArray()
         Object[] arr = coll.toArray();
         for(int i = 0;i < arr.length;i++){
             System.out.println(arr[i]);
         }
 
-        //拓展：数组 --->集合:调用Arrays类的静态方法asList()
+        //拓展：array --->集合:调用Arrays类的静态方法asList()
         List<String> list = Arrays.asList(new String[]{"AA", "BB", "CC"});
         System.out.println(list);
 

@@ -52,7 +52,7 @@ public class SetTest {
         jdk 8 :原来的元素在数组中，指向元素a
         总结：七上八下
 
-        HashSet底层：数组+链表的结构。
+        HashSet底层：array+链表的结构。
 
      */
 

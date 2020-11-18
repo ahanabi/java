@@ -5,7 +5,7 @@ package com.zrj.java;
  * @create 2020-06-22 23:34
  */
 /*
- * 算法的考查：数组的复制、反转、查找(线性查找、二分法查找)
+ * 算法的考查：数组的复制、反转、lookup(线性查找、二分法查找)
  *
  *
  */
@@ -43,7 +43,7 @@ public class ArrayTest2 {
         }
 
         System.out.println();
-        //查找（或搜索）
+        //lookup（或搜索）
         //线性查找：
         String dest = new String("BB");
         dest = new String("CC");

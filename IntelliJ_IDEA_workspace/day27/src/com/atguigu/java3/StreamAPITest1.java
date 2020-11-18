@@ -102,7 +102,7 @@ public class StreamAPITest1 {
 
     }
 
-    //3-排序
+    //3-sort
     @Test
     public void test4(){
 //        sorted()——自然排序

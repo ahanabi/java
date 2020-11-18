@@ -64,7 +64,7 @@ public class Employee implements Comparable<Employee>{
     }
 
     //没有指明泛型时的写法
-    //按 name 排序
+    //按 name sort
 //    @Override
 //    public int compareTo(Object o) {
 //        if(o instanceof Employee){

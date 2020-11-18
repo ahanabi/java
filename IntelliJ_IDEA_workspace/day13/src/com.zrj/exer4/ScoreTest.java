@@ -14,7 +14,7 @@ import java.util.Vector;
 	注意第一个元素的下标是0，返回值是Object类型的。
 	计算向量的长度：v.size();
 	若与最高分相差10分内：A等；20分内：B等；
-	      30分内：C等；其它：D等
+	      30分内：C等；others：D等
 
  * 
  * 

@@ -17,7 +17,7 @@ public class ArrayUtilTest {
 		System.out.println("排序后：");
 		ArrayUtil.print(arr);
 		
-//		System.out.println("查找：");
+//		System.out.println("lookup：");
 //		int index = util.getIndex(arr, -5);
 //		if(index >= 0){
 //			System.out.println("找到了，索引地址为：" + index);

@@ -10,7 +10,7 @@ import java.util.TreeSet;
  * 创建该类的 5 个对象，并把这些对象放入 TreeSet 集合中（下一章：TreeSet 需使用泛型来定义）
  分别按以下两种方式对集合中的元素进行排序，并遍历输出：
 
- 1). 使Employee 实现 Comparable 接口，并按 name 排序
+ 1). 使Employee 实现 Comparable 接口，并按 name sort
  2). 创建 TreeSet 时传入 Comparator对象，按生日日期的先后排序。
 
  *

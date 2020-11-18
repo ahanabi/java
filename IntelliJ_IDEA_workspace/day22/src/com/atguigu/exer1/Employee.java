@@ -57,7 +57,7 @@ public class Employee implements Comparable{
                 '}';
     }
 
-    //按 name 排序
+    //按 name sort
     @Override
     public int compareTo(Object o) {
         if(o instanceof Employee){

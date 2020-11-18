@@ -163,7 +163,7 @@ public class BufferedTest {
             bw = new BufferedWriter(new FileWriter(new File("dbcp1.txt")));
 
             //读写操作
-            //方式一：使用char[]数组
+            //方式一：使用char[]array
 //            char[] cbuf = new char[1024];
 //            int len;
 //            while((len = br.read(cbuf)) != -1){

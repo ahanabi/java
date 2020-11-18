@@ -14,7 +14,7 @@ public class 学生管理系统 {
         Integer studentCount = 0;
         int time = 0;
         System.out.println("欢迎进入学生管理系统\n1.添加学生信息\n2.显示学生信息\n" +
-                "3.删除学生信息\n4.修改学生信息\n5.查询学生信息\n6.排序\n7.退出");
+                "3.删除学生信息\n4.修改学生信息\n5.查询学生信息\n6.sort\n7.退出");
         for(;;) {
             System.out.println("请输入选择：");
             Scanner scanner = new Scanner(System.in);

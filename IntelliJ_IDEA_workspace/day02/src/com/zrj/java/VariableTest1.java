@@ -15,7 +15,7 @@ Java定义的数据类型
 	引用数据类型：
 		类(class)
 		接口(interface)
-		数组(array)
+		array(array)
 
 
 二、变量在类中声明的位置：
